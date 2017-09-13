@@ -1,8 +1,9 @@
-# Name of your app
+# CryptoCurrencies
 
-**Name of your app** description.
+CryptoCurrencies is a cryptoCurrency market capitalizations website. 
 
-Submitted by: **Your name**
+
+Submitted by: Vo Hoai Len, Cao Thanh Phuong, Vo Van Phai
 
 Time spent: **time** hours spent in total
 
@@ -11,14 +12,15 @@ URL:
 ## User Stories
 
 ### Required:
+* [ ] List current cryptocurrencies price.
+* [ ] CryptoCurrency Converter Calculator.
+* [ ] CryptoCurrency newfeeds.
+* [ ] Cryptocurrencies trends.
+* [ ] Notify user (send email) when the cryptocurrency's price reach the special value.
 
-* [ ] Feature 1.
-* [ ] Feature 2.
 
 ### Optional:
-
-* [ ] Feature 1.
-* [ ] Feature 2.
+* [ ] Cryptocurrency Forecast
 
 The following **additional** features are implemented:
 
