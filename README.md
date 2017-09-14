@@ -1,6 +1,6 @@
-# CryptoCurrencies
+# CryptoCurrency
 
-CryptoCurrencies is a cryptoCurrency market capitalizations website. 
+CryptoCurrency is a cryptoCurrency market capitalizations website. 
 
 
 Submitted by: Vo Hoai Len, Cao Thanh Phuong, Vo Van Phai
