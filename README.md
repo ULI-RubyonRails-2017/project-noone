@@ -13,13 +13,13 @@ URL:
 
 ### Required:
 * [ ] HomePage | List current cryptocurrencies status. (Price, Market cap, Change 24h)
-    - [ ] Realtime update price 
+    - [ ] Realtime update price 
     - [ ] Search a cryptocurrencie (By name)
     - [ ] Sort by : Price, highest changes
     
 * [ ] DetailCryptocurrency | Detail a cryptocurrency
-    - [ ] Realtime chart cryptocurrency price (Update in a minute)
-    - [ ] Cryptocurrency's pice History Chart (24hours, 7Days, 30 days, 90 days)
+    - [ ] Realtime chart cryptocurrency price (Update in a minute)
+    - [ ] Cryptocurrency's pice History Chart (24hours, 7Days, 30 days, 90 days)
     - [ ] List news of a cryptocurrency
 
 * [ ] Detail a cryptocurrency new
