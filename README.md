@@ -12,12 +12,27 @@ URL:
 ## User Stories
 
 ### Required:
-* [ ] List current cryptocurrencies price.
-* [ ] CryptoCurrency Converter Calculator.
-* [ ] CryptoCurrency newfeeds.
-* [ ] Cryptocurrencies trends.
-* [ ] Notify user (send email) when the cryptocurrency's price reach the special value.
+* [ ] HomePage | List current cryptocurrencies status. (Price, Market cap, Change 24h)
+    - [ ] Realtime update price 
+    - [ ] Search a cryptocurrencie (By name)
+    - [ ] Sort by : Price, highest changes
+    
+* [ ] DetailCryptocurrency | Detail a cryptocurrency
+    - [ ] Realtime chart cryptocurrency price (Update in a minute)
+    - [ ] Cryptocurrency's pice History Chart (24hours, 7Days, 30 days, 90 days)
+    - [ ] List news of a cryptocurrency
 
+* [ ] Detail a cryptocurrency new
+
+* [ ] Subcribe a cryptocurrency (In order to get the news of the cryptocurrency). 
+
+* [ ] CryptoCurrency Converter Calculator: Calculator tool to convert between any two cryptocurrencies.
+
+* [ ] Send email notification when the cryptocurrency's price reach the special value.
+
+* [ ] Send sms notification when the cryptocurrency's price reach the special value.
+
+* [ ] Use redis to cache the responses
 
 ### Optional:
 * [ ] Cryptocurrency Forecast
