@@ -12,7 +12,7 @@ services:
     build: web_api
     container_name: web_api
     env_file: .env
-    command: sh /web_api/scripts/startup.sh
+    # command: sh /web_api/scripts/startup.sh
     # command: sh /web_api/scripts/install.sh
     ports:
      - "80:3000"
@@ -42,7 +42,7 @@ services:
     build: scheduler
     container_name: scheduler
     env_file: .env
-    command: sh /scheduler/scripts/startup.sh
+    # command: sh /scheduler/scripts/startup.sh
     # command: sh /scheduler/scripts/install.sh
     ports:
      - "82:3000"
