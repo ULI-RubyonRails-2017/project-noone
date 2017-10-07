@@ -1,0 +1,52 @@
+version: '3'
+services:
+  db_pg: 
+   image: postgres
+   container_name: db_pg
+   env_file: .env
+   volumes:
+     - ./db_pg:/db_pg
+  web_api:
+    depends_on:
+      - db_pg
+    build: web_api
+    container_name: web_api
+    env_file: .env
+    command: sh /web_api/scripts/startup.sh
+    # command: sh /web_api/scripts/install.sh
+    ports:
+     - "80:3000"
+    volumes:
+     - ./web_api:/web_api
+    links:
+      - db_pg
+  web:
+    depends_on:
+      - db_pg
+      - web_api
+    build: web
+    container_name: web
+    env_file: .env
+    command: sh /web/scripts/startup.sh
+    # command: sh /web/scripts/install.sh
+    ports:
+     - "81:3000"
+    volumes:
+     - ./web:/web
+    links:
+      - db_pg
+      - web_api
+  scheduler:
+    depends_on:
+      - db_pg
+    build: scheduler
+    container_name: scheduler
+    env_file: .env
+    command: sh /scheduler/scripts/startup.sh
+    # command: sh /scheduler/scripts/install.sh
+    ports:
+     - "82:3000"
+    volumes:
+     - ./scheduler:/scheduler
+    links:
+      - db_pg
