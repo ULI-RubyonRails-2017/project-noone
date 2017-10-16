@@ -5,7 +5,7 @@ CryptoCurrency is a cryptoCurrency market capitalizations website.
 
 Submitted by: Vo Hoai Len, Cao Thanh Phuong, Vo Van Phai
 
-Time spent: **time** hours spent in total
+Time spent: 30 hours spent in total
 
 URL: 
 
@@ -22,7 +22,7 @@ URL:
     - [ ] Cryptocurrency's pice History Chart (24hours, 7Days, 30 days, 90 days)
     - [ ] List news of a cryptocurrency
 
-* [ ] Detail a cryptocurrency new
+* [ ] Detail a cryptocurrency news
 
 * [ ] Subcribe a cryptocurrency (In order to get the news of the cryptocurrency). 
 
